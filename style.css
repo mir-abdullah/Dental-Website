@@ -1,0 +1,110 @@
+@media screen and (max-width: 768px) {
+   
+  
+    .upar {
+      margin-left: auto;
+      font-size: large;
+    }
+  
+    
+  
+    .nav-link {
+      font-size: medium;
+    }
+  
+    .first-section {
+      padding: 50px 20px;
+    }
+  
+    .tag-line {
+      font-size: 3pc;
+    }
+  
+    .caption-line {
+      font-size: 2pc;
+    }
+  
+    .call-btn {
+      margin-top: 20px;
+    }
+  
+    .heading-services {
+      font-size: 2pc;
+    }
+  
+    .paragraph {
+      font-size: large;
+    }
+  
+    .list-services {
+      gap: 4em;
+    }
+  
+    .service-type {
+      margin-top: 50px;
+      height: auto;
+    }
+  
+    .service-button {
+      margin: 0 auto;
+      margin-bottom: 20px;
+      width: 150px;
+      height: 40px;
+    }
+  
+    .type-service {
+      padding-top: 1em;
+      margin: 50px 20px;
+      font-size: large;
+    }
+  
+    .tag-service {
+      font-size: medium;
+    }
+  
+    .carousel-item img {
+      height: 300px;
+      width: 90%;
+    }
+  
+    .maps {
+      margin: 10px;
+      gap: 0.5em;
+    }
+  
+    .contact-us {
+      flex-direction: column;
+      gap: 2em;
+    }
+  
+    .heading1-footer {
+      margin: 20px;
+      font-size: large;
+    }
+  
+    .stay-line {
+      margin: 20px;
+      width: 300px;
+    }
+  
+    .map-display {
+      margin-left: 20px;
+      margin-bottom: 20px;
+    }
+  
+    footer {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .footer-contact {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .fb-icon {
+      margin: 10px;
+    }
+  }
+  
