@@ -169,8 +169,8 @@
     margin-top: 50px;
   }
   .service-button{
-    display: block; /* Ensure the button appears as a block element */
-    margin: 0 auto; /* Center the button horizontally */
+    display: block; 
+    margin: 0 auto;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -178,6 +178,12 @@
     width :200px;
     height:50px;
   }
+
+  .book-service-btn:hover .service-button {
+    background-color: black;
+    color: #fb7185;
+}
+
   
   .type-service{
     padding-top: 1.5em;
