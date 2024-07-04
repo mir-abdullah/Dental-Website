@@ -14,29 +14,31 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg bg-light">
-    <img src="logo.jpg" alt="logo" class="rounded-pill" style="width: 80px" />
-    <h3 class="upar">Mehreen Dental Clinic</h3>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="list collapse navbar-collapse" id="navbarNav ">
-      <ul class="navbar-nav">
-        <li class="nav-item"><a class="nav-link text-black" href="#services">Services</a></li>
-        <li class="nav-item"><a class="nav-link text-black" href="#location">Location</a></li>
-        <li class="nav-item"><a class="nav-link text-black" href="#location">Contact Us</a></li>
-        <li class="nav-item ">
-          <a class="nav-link text-black" href="tel:+923181978750"><img src="call.png" alt="call"
-              style="width: 20px;">Call Now</a>
-        </li>
-      </ul>
+  
+  <nav class="navbar navbar-expand-lg navbar-custom">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="logo.jpg" alt="logo" class="rounded-pill logo">
+            <h3 class="brand-name">Mehreen Dental Clinic</h3>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#location">Location</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="tel:+923181978750"><img src="call.png" alt="call" class="call-icon">Call Now</a></li>
+            </ul>
+        </div>
     </div>
-  </nav>
+</nav>
   <section class="first-section">
-    <h1 class="tag-line">Caring For Your Smile</h1>
+    <h1 class="tag-line">Caring For Your <span tag-line-span>Smile</span></h1>
     <h2 class="caption-line">Healthy Smile,Healthy Life </h2>
-    <a href="tel:+923181978750" class="call-btn"><button class="butn rounded-pill">Call Now</button></a>
+    <a href="tel:+923181978750" class="call-btn"><button class="butn rounded-pill">Book Appointment</button></a>
 
 
   </section>
@@ -78,7 +80,7 @@
       </p>
 
       <a href="tel:+923181978750" class="book-service-btn"><button
-          class="service-button btn bg-white btn-large text-black rounded-pill" onclick="makeCall()">Book
+          class="service-button btn-large  rounded-pill" onclick="makeCall()">Book
           Now</button></a>
 
     </div>
@@ -166,7 +168,7 @@
     </div>
     <p><iframe class="map-display"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3324.218562212357!2d73.10235661071067!3d33.573674073229775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfed3688656cdf%3A0x9a5b53d75344b010!2sMehreen%20Dental%20Clinic!5e0!3m2!1sen!2s!4v1707560062184!5m2!1sen!2s"
-        width="900" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        width="900" height="450" style="border:0;" loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"></iframe></p>
   </section>
   <footer>
@@ -184,7 +186,7 @@
           </p>
         </div>
         <div class="maps">
-          <img src="call.png" alt="call" style="width: 40px; height: 40px; ;">
+          <img src="C:\Users\mirab\Downloads\call.png" alt="call" style="width: 40px; height: 40px; ;">
           <p class="timings-paragraph">
             <a class="call-link" href="tel:+923181978750">(+92) 318-1978750</a><br>
             Mon-Sat : 10AM - 10PM<br>
@@ -194,8 +196,7 @@
 
         </div>
         <div class="maps">
-          <img src="email.png" alt="email" style="width: 40px; height: 40px; ;">
-          <p class="email-paragraph">
+          <img src="C:\Users\mirab\Downloads\email.png" alt="email" style="width: 40px; height: 40px; ;">          <p class="email-paragraph">
             Email us at <u>zahidmehreen.ma@gmail.com</u>
 
           </p>
@@ -204,17 +205,25 @@
       <div class="review">
         <h2 class="heading1-footer">Review Us</h2>
         <hr class="stay-line">
-        <a class="review-google"> Google</a>
-        <a class="review-google" target="_blank" href="https://www.facebook.com/mehreendental/reviews">Facebook</a>
+        <div class="review-items">
+          <a class="review-google"> <img src="C:\Users\mirab\Downloads\google.png" alt="google"
+            style="width: 40px; height: 40px; ;"></a>
+          <a class="review-google" target="_blank" href="https://www.facebook.com/mehreendental/reviews"><img src="C:\Users\mirab\Downloads\facebook.png"
+            alt="facebook" style="width: 40px; height: 40px; ;"></a>
+
+        </div>
 
       </div>
       <div class="social-media">
         <h2 class="heading1-footer">Social Media</h2>
         <hr class="stay-line">
-        <a class="fb-icon" target="_blank" href="https://www.facebook.com/mehreendental"><img src="facebook.png"
-            alt="facebook" style="width: 40px; height: 40px; ;"></a>
-        <a class="fb-icon" target="_blank" href="https://www.instagram.com/mehreendental?igsh=MXZjbzNoNjloazZrYw=="><img
-            src="instagram.png" alt="instagram" style="width: 40px; height: 40px; ;"></a>
+        <div class="social-media-items">
+          <a class="fb-icon" target="_blank" href="https://www.facebook.com/mehreendental"><img src="C:\Users\mirab\Downloads\facebook.png"
+              alt="facebook" style="width: 40px; height: 40px; ;"></a>
+          <a class="fb-icon" target="_blank" href="https://www.instagram.com/mehreendental?igsh=MXZjbzNoNjloazZrYw=="><img
+              src="C:\Users\mirab\Downloads\insta.png" alt="instagram" style="width: 40px; height: 40px; ;"></a>
+
+        </div>
 
 
       </div>
